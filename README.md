@@ -15,6 +15,6 @@
 	```kubectl apply -f services.yaml```
 
 4. Now run the docker through this command  
-	```sudo docker run -e NAME="puja" -d -p 8000:80 pujapriya/theapp:hello``
+	```sudo docker run -e NAME="YOUR_NAME" -d -p 8000:80 pujapriya/theapp:hello``
 
 5. Now Open the browser on the link ```http://localhost:8000/```
