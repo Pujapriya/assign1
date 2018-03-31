@@ -1,0 +1,25 @@
+ apiVersion: v1
+
+ kind: Pod
+
+ metadata:
+
+   name: app
+
+   labels:
+
+     app: app
+
+ spec:
+
+   containers:
+
+     - name: app
+
+       image: docker.io/pujapriya/theapp:hello
+
+       ports:
+
+         - containerPort: 80
+
+    
